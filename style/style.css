@@ -1,0 +1,231 @@
+/*********** Layout comune ************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #255EE9;
+    padding: 0.5rem 0 0;
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.black {
+    background-color: rgb(62, 62, 62);
+    color: white;
+}
+
+.blu {
+    background-color: #7289DA;
+    color: white;
+}
+
+.centrato {
+    margin: 1.5rem auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*********** Nav + Header boxes ************/
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    width: 70%;
+}
+
+.nav3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 15%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    padding: 0.5rem 0.8rem;
+    border-radius: 20px;
+}
+
+.mainheader {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.text-header {
+    width: 70%;
+    margin: 3rem auto;
+    color: white;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+/*********** Main boxes  ************/
+
+main {
+    background-color: white;
+}
+
+main section:nth-of-type(2),
+main section:nth-of-type(4) {
+    background-color: #F6F6F6;
+}
+
+img {
+    text-align: center;
+    width: 100%;
+}
+
+.side-img {
+    width: 60%;
+}
+
+.side-text {
+    width: 40%;
+}
+
+.big-main {
+    text-align: center;
+    width: 100%;
+}
+
+.stelline {
+    height: 60px;
+    margin: 0 25%;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rovesciata {
+    transform: rotateX(180deg);
+    filter: invert(96%);
+}
+
+.dritta {
+    filter: invert(96%);
+    margin-bottom: -4px;
+}
+
+/*********** Footer Boxes ************/
+
+footer {
+    background-color: #23272A;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.main-footer {
+    width: 30%;
+    padding-right: 1rem;
+}
+
+.footer-title {
+    color: #7289DA;
+}
+
+.lingua {
+    margin: 1rem 0;
+    color: white;
+}
+
+.italia {
+    width: 20px;
+    margin-right: 0.4rem;
+}
+
+.side-footer {
+    width: 80%;
+    display: flex;
+}
+
+.icone {
+    display: flex;
+    gap: 15px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.trasparente {
+    width: 25%;
+}
+
+.trasparente div {
+    margin-top: 1rem;
+    color: white;
+}
+
+h3 {
+    color: #7289DA;
+}
+
+hr {
+    margin: 0 auto;
+    max-width: 1200px;
+    border: 1px solid #4F5D8C;
+}
+
+.register {
+    padding: 0;
+}
+
+.lastsection {
+    margin: 1rem 0 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-piccolo {
+    width: 6rem;
+    text-align: left;
+}
+
+button {
+    border: none;
+}
