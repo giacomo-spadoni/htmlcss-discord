@@ -228,4 +228,5 @@ hr {
 
 button {
     border: none;
+    cursor: pointer;
 }
