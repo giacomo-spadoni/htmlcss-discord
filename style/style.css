@@ -145,7 +145,8 @@ img {
 
 .dritta {
     filter: invert(96%);
-    margin-bottom: -4px;
+    /* margin-bottom: -4px; */
+    display: block;
 }
 
 /*********** Footer Boxes ************/
